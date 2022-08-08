@@ -3,8 +3,8 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:ap-south-1:860061945305:task-definition/pms-pst-processpension-taskdef:1"
+        TaskDefinition: "arn:aws:ecs:ap-south-1:860061945305:task-definition/swadesh-process-pension-task:1"
         LoadBalancerInfo:
-          ContainerName: "pst-processpension-container"
+          ContainerName: "swadesh-process-pension-container"
           ContainerPort: "8084"
         PlatformVersion: "LATEST"
